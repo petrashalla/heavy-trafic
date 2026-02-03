@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="assets/css/build/build/swiper.css">
+    <link rel="stylesheet" href="assets/css/build/build/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+    
+    <title>Name</title>
+    <meta name='keywords' content='' />
+    <meta name='description' content='' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="assets/js/build/swiper-bundle.min.js" defer></script> 
+    <script src="assets/js/build/fancybox.min.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/swipers.js" defer></script>
+    <script src="assets/js/request.js" defer></script>
+    <script src="assets/js/sourcebuster.min.js" defer></script>
+    <script> </script>
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <div class="container">
+            <div class="header__row">
+                <a href="/" class="header__logo logo">
+                    <picture class=''>
+                        <source srcset='assets/img/icons/logo.svg' type='image/svg+xml'>
+                        <img src='assets/img/icons/logo.png' decoding='async' alt='logo'>
+                    </picture>
+                </a>
+    
+                <div class="header__menu">
+                    <div class="header__nav">
+                        <ul class="header__nav-list">
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">О нас</a>
+                            </li>
+                            <li class="header__nav-item header__nav-btn hide-item">
+                                <button href="#" class="header__nav-link">Услуги</button>
+                                <div class="header__nav-arrow">
+                                    <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <rect width="21" height="21" rx="10.5" fill="white" fill-opacity="0.1" />
+                                        <path d="M13.5 9.5L10.5 12.5L7.5 9.5" stroke="#DE523E" stroke-width="1.5" stroke-linejoin="round" />
+                                    </svg>
+                                </div>
+                                <div class="header__nav-submenu">
+                                    <ul>
+                                        <li><a href="#">
+                                            Комплексное продвижение
+                                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.707031 0.707031L6.70703 6.70703L0.707031 12.707" stroke="#494C5B" stroke-width="2" stroke-linejoin="round" />
+                                            </svg>
+                                        </a></li>
+                                        <li><a href="#">
+                                            Развитие бизнса под ключ
+                                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.707031 0.707031L6.70703 6.70703L0.707031 12.707" stroke="#494C5B" stroke-width="2" stroke-linejoin="round" />
+                                            </svg>
+                                        </a></li>
+                                        <li><a href="#">
+                                            Генератор пациентов
+                                            <svg width="8" height="14" viewBox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0.707031 0.707031L6.70703 6.70703L0.707031 12.707" stroke="#494C5B" stroke-width="2" stroke-linejoin="round" />
+                                            </svg>
+                                        </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Вакансии</a>
+                            </li>
+                            <li class="header__nav-item">
+                                <a href="#" class="header__nav-link">Контакты</a>
+                            </li>
+                        </ul>
+    
+                        <div class="header__bottom">
+                            <div class="header__contacts">
+                                <a href="tel:89034085614">8 (903) 408-56-14</a>
+                                <a href="mailto:ooowebservice@rambler.ru">ooowebservice@rambler.ru</a>
+                                <p>Ростов-на-дону, пр-кт Ленина, д. 91, ком. 36</p>
+                            </div>
+                            <div class="header__networks">
+                                <a href="#" class="network">
+                                    Тelegram
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25.7269 8.27277L0.920241 18.0647C-0.0780239 18.5207 -0.415664 19.4338 0.67896 19.9294L7.04294 21.9996L22.4302 12.2654C23.2704 11.6543 24.1305 11.8173 23.3904 12.4895L10.1748 24.7379L9.75965 29.9214C10.1442 30.7217 10.8482 30.7254 11.2973 30.3276L14.9536 26.7863L21.2156 31.5861C22.67 32.4675 23.4614 31.8987 23.7743 30.2833L27.8816 10.3755C28.3081 8.38705 27.5808 7.51092 25.7269 8.27277Z" fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="network">
+                                    Whatsapp
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0003 6C21.732 6 28 12.2681 28 20C28 27.7319 21.732 34 14.0003 34C11.578 34 9.29899 33.384 7.31038 32.3005L1.13749 33.3358C0.985337 33.3612 0.82934 33.3502 0.682265 33.3037C0.53519 33.2572 0.40122 33.1765 0.291325 33.0683C0.18143 32.96 0.098734 32.8273 0.0500091 32.6809C0.00128409 32.5346 -0.0120847 32.3788 0.0109973 32.2262L1.05284 25.3369C0.354901 23.6444 -0.00266314 21.8308 0.000578855 20C0.000578855 12.2681 6.26854 6 14.0003 6ZM8.71686 13.0977C7.75967 13.0977 6.96657 13.9051 7.11504 14.9027C7.39633 16.7728 8.2272 20.2188 10.699 22.7088C13.2827 25.3122 16.9799 26.4257 18.9816 26.8646C20.0182 27.0925 20.9025 26.272 20.9025 25.2601V22.8847C20.9025 22.8057 20.8786 22.7286 20.834 22.6636C20.7894 22.5985 20.7261 22.5484 20.6524 22.52L18.0999 21.5393C18.031 21.513 17.9561 21.5067 17.8837 21.5211L15.3091 22.0238C13.6487 21.1643 12.6433 20.2006 12.0403 18.7485L12.5248 16.1243C12.5378 16.0545 12.5315 15.9824 12.5066 15.9159L11.5494 13.3516C11.5216 13.2773 11.4718 13.2131 11.4067 13.1678C11.3415 13.1224 11.2641 13.0979 11.1847 13.0977H8.71686Z" fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <button class="header__btn btn-brief popup-btn" data-path="popup-change">Заполнить бриф</button>
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header><main class="main">
+    
+    <section class='banner banner-service animation-item'>
+        <div class='container'>
+            <div class="banner__wrap">
+                <ul class="breadcrumbs">
+                    <li><a href="/">Главная</a></li>
+                    <li>Генератор пациентов</li>
+                </ul>
+                <div class="banner__inner">
+                    <h1 class="banner__title title-big">Генератор <br>пациентов</h1>
+                    <div class="banner__bottom">
+                        <p class="banner__bottom-text">Настраиваем рекламу, точки контакта и воронку так, чтобы больше людей доходили до реальной записи и приёма</p>
+                        <button class='btn-red popup-btn' data-path='popup-change'>
+                            Обсудить проект
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.59378 1.6607C7.77622 1.25877 8.18279 1 8.63327 1H17.6171C18.4617 1 19.0124 1.86992 18.634 2.6099L16.0787 7.60696H19.8605C20.8741 7.60696 21.3809 8.80502 20.6646 9.50536L7.20298 22.6675C6.35382 23.4978 4.9393 22.6433 5.31995 21.53L8.18954 13.1128H4.13743C3.94794 13.1128 3.76145 13.0665 3.59491 12.9781C3.42836 12.8897 3.28704 12.7621 3.18377 12.6067C3.0805 12.4514 3.01855 12.2733 3.00356 12.0886C2.98858 11.9039 3.02102 11.7184 3.09794 11.5491L7.59378 1.6607Z" fill="white" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <picture class='banner__sticker animation-item transform-item banner__sticker-service-1'>
+                    <img src='assets/img/banner/service-1-sticker-1.png' decoding='async' alt=''>
+                </picture>
+                <picture class='banner__sticker animation-item transform-item banner__sticker-service-1'>
+                    <img src='assets/img/banner/service-1-sticker-2.png' decoding='async' alt=''>
+                </picture>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class='advantages section-offset'>
+        <div class='container'>
+            <div class="section__top">
+                <p class="section__top-title">Преимущества</p>
+                <div class="counter-blocks">
+                    <span>02</span>
+                    <span>08</span>
+                </div>
+            </div>
+    
+            <p class="section__title title-h2">В чём сила нашего подхода к продвижению</p>
+    
+            <div class='advantages__swiper swiper'>
+                <div class='swiper-wrapper'>
+                    <div class='advantages__swiper-slide swiper-slide'>
+                        <div class="advantages__card">
+                            <p class="advantages__card-title">Комплексный подход</p>
+                            <p class="advantages__card-text">Смотрим на маркетинг целиком: 
+                                от стратегии и креатива 
+                                до перформанса и аналитики, 
+                                чтобы всё работало в одну цель</p>
+                        </div>
+                    </div>
+                    <div class='advantages__swiper-slide swiper-slide'>
+                        <div class="advantages__card">
+                            <p class="advantages__card-title">Фокус на результате</p>
+                            <p class="advantages__card-text">Оцениваем работу не по красивым макетам, а по цифрам — охваты, заявки, продажи, рост бренда</p>
+                        </div>
+                    </div>
+                    <div class='advantages__swiper-slide swiper-slide'>
+                        <div class="advantages__card">
+                            <p class="advantages__card-title">Понятные процессы</p>
+                            <p class="advantages__card-text">Прозрачно показываем, что делаем 
+                                и зачем: отчёты, планы и шаги 
+                                без сложного языка и «воды»</p>
+                        </div>
+                    </div>
+                    <div class='advantages__swiper-slide swiper-slide'>
+                        <div class="advantages__card">
+                            <p class="advantages__card-title">Смелый креатив</p>
+                            <p class="advantages__card-text">Делаем кампании, которые сложно пролистать: свежие идеи, которые помогают бренду выделиться и расти</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+    <section class='steps section-offset'>
+        <div class='container'>
+            <div class="section__top">
+                <p class="section__top-title">Этапы работы</p>
+                <div class="counter-blocks">
+                    <span>03</span>
+                    <span>08</span>
+                </div>
+            </div>
+            
+            <p class="steps__title section__title title-h1">эффектиный Путь проекта от идеи и планирования до <span>реального результата</span></p>
+    
+            <ol class="steps__list">
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Планирование</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Аналитика</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Прототипирование</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Дизайн</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Разработка</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="steps__item">
+                    <div class="steps__item-top accordion">
+                        <p class="steps__item-name">Продвижение и seo-поддержка</p>
+                        <div class="steps__item-btn">
+                            <svg width="10" height="16" viewBox="0 0 10 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.882813 0.883789L7.88281 7.88379L0.882813 14.8838" stroke="#DE523E" stroke-width="2.5" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="accordion__content">
+                        <div class="steps__item-text">
+                            <p>На этапе планирования мы превращаем задачу в понятный маршрут. Разбираем продукт, аудиторию и рынок: смотрим, кто ваши клиенты, что им важно, как говорят конкуренты и где сейчас теряется внимание. Формулируем чёткие цели — что именно должен дать маркетинг: заявки, продажи, трафик, узнаваемость или всё вместе, но в нужной пропорции.</p>
+                            <p>Дальше собираем стратегию: определяем ключевое сообщение бренда, набор каналов, формат кампаний, примерный медиаплан и ориентиры по KPI. Продумываем гипотезы, которые будем тестировать, и фиксируем, как именно будем считать результат. В итоге вы получаете прозрачный план действий по этапам — от первой идеи до запуска, без абстракций и лишнего шума</p>
+                        </div>
+                    </div>
+                </li>
+    
+    
+            </ol>
+        </div>
+    </section>
+    
+    
+    <section class='technology section-offset'>
+        <div class='container'>
+            <div class="section__top">
+                <p class="section__top-title">Технологии и инструменты</p>
+                <div class="counter-blocks">
+                    <span>04</span>
+                    <span>08</span>
+                </div>
+            </div>
+    
+            <p class="technology__title section__title title-h2">Мы используем только проверенные и надежные стеки</p>
+    
+            <div class="technology__list">
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-1.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-1.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-2.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-2.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-3.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-3.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-4.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-4.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-5.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-5.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-6.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-6.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+                <div class="technology__item">
+                    <picture class='technology__item-pic'>
+                        <source srcset='assets/img/technology/technology-7.svg' type='image/svg+xml'>
+                        <img src='assets/img/technology/technology-7.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class='form section-offset'>
+        <div class='container'>
+            <div class="form__row">
+                <div class="form__picture animation-item">
+                    <picture class='form__picture-pic'>
+                        <source srcset='assets/img/form/form-sticker.webp' type='image/webp'>
+                        <img src='assets/img/form/form-sticker.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+    
+                <div class="form__content animation-item">
+                    <p class="form__title title-h2">Обсудим проект</p>
+                    <p class="form__subtitle">Организуем встречу, познакомимся, найдем точки роста и сформируем индивидуальное предложение под задачи вашей компании</p>
+    
+                    <form class="form__wrap">
+                        <input name='catalogue' type='hidden' value='<?= $current_catalogue["Catalogue_ID"] ?>' />
+                        <input name="bitrixID" type="hidden" value='<?= $current_catalogue["BitrixID"] ?>'>
+                        <input name='city' type='hidden' value='<?= $current_catalogue["Catalogue_Name"] ?>' />
+                        <input name='type' type='hidden' value='request' />
+                        <input name='cc' type='hidden' value='2' />
+                        <input name='sub' type='hidden' value='8' />
+                        <input name='mes' type='hidden' value='22' />
+                        <input name="urlMessage" type="hidden" value="">
+                        <input name="title_url_message" type="hidden" value="">                    <input type="text" name="params[name][]"  placeholder="Ваше имя" required> 
+                        <input type="tel" name="params[phone][]"  placeholder="Ваш номер телефона" required> 
+                        <textarea name="params[message][]" placeholder="Кратко опишите задачу"></textarea>
+    
+                        <div class="form__wrap-bottom">
+                            <div class="politic">
+                                <input type="checkbox" id="form-politic">
+                                <label for="form-politic">Нажимая кнопку «Обсудить проект», вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a></label>
+                            </div>
+                            <button type="submit" class='btn-red form__btn'>Обсудить проект
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.59378 0.660696C6.77622 0.258772 7.18279 0 7.63327 0H16.6171C17.4617 0 18.0124 0.869916 17.634 1.6099L15.0787 6.60696H18.8605C19.8741 6.60696 20.3809 7.80502 19.6646 8.50536L6.20298 21.6675C5.35382 22.4978 3.9393 21.6433 4.31995 20.53L7.18954 12.1128H3.13743C2.94794 12.1128 2.76145 12.0665 2.59491 11.9781C2.42836 11.8897 2.28704 11.7621 2.18377 11.6067C2.0805 11.4514 2.01855 11.2733 2.00356 11.0886C1.98858 10.9039 2.02102 10.7184 2.09794 10.5491L6.59378 0.660696Z" fill="#1C1E28" />
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section class='reviews white-block section-offset'>
+        <div class='container'>
+            <div class="section__top">
+                <p class="section__top-title">Отзывы</p>
+                <div class="counter-blocks">
+                    <span>06</span>
+                    <span>08</span>
+                </div>
+            </div>
+    
+            <div class="reviews__top">
+                <div class="reviews__title title-h2">Отзывы клиентов — наш <span>самый ценный подарок</span> 
+                    <div class="reviews__title-icons">
+                        <picture class='reviews__title-icon'>
+                            <source srcset='assets/img/reviews/reviews-icon-1.svg' type='image/svg+xml'>
+                            <img src='assets/img/reviews/reviews-icon-1.png' decoding='async' loading='lazy' alt=''>
+                        </picture>
+                        <picture class='reviews__title-icon'>
+                            <source srcset='assets/img/reviews/reviews-icon-2.svg' type='image/svg+xml'>
+                            <img src='assets/img/reviews/reviews-icon-2.png' decoding='async' loading='lazy' alt=''>
+                        </picture>
+                        <picture class='reviews__title-icon'>
+                            <source srcset='assets/img/reviews/reviews-icon-3.svg' type='image/svg+xml'>
+                            <img src='assets/img/reviews/reviews-icon-3.png' decoding='async' loading='lazy' alt=''>
+                        </picture>
+                    </div>
+                </div>
+    
+                <div class='swiper-btns'>
+                    <button class='reviews__swiper-button-prev swiper-button-prev'></button>
+                    <button class='reviews__swiper-button-next swiper-button-next'></button>
+                </div>
+            </div>
+    
+            
+            <div class='reviews__swiper swiper'>
+                <div class='swiper-wrapper'>
+                    <div class='reviews__swiper-slide swiper-slide'>
+                        <div class="reviews__card">
+                            <div class="reviews__card-main">
+                                <div class="reviews__card-text">Команда Heavy Traffic буквально вытащила наш сайт из небытия. За 8 месяцев работы мы вышли в ТОП-3 по самым конкурентным запросам в нашей нише. Главное - это реальный поток пациентов. Нравится их системный подход, мы всегда понимаем, на что идет бюджет и какой результат получим за эти деньги</div>
+                                <button class="reviews__card-btn btn-more">Показать еще</button>
+                            </div>
+    
+                            <div class="reviews__card-autor">
+                                <picture class='reviews__card-photo'>
+                                    <source srcset='assets/img/reviews/photo-1.webp' type='image/webp'>
+                                    <img src='assets/img/reviews/photo-1.jpg' decoding='async' loading='lazy' alt=''>
+                                </picture>
+                                <div class="reviews__card-person">
+                                    <p class="reviews__card-name">Екатерина Сайдаметова</p>
+                                    <p class="reviews__card-post">— Основатель компании «Медицинский друг»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class='reviews__swiper-slide swiper-slide'>
+                        <div class="reviews__card">
+                            <div class="reviews__card-main">
+                                <div class="reviews__card-text">Работаем с Heavy Traffic по системе "бизнес под ключ". Они создали для нас целую экосистему. Уровень доверия пациентов вырос в разы, люди приходят к нам, уже зная наших врачей. Это глубокая экспертиза, которую сейчас редко встретишь.</div>
+                                <button class="reviews__card-btn btn-more">Показать еще</button>
+                            </div>
+    
+                            <div class="reviews__card-autor">
+                                <picture class='reviews__card-photo'>
+                                    <source srcset='assets/img/reviews/photo-1.webp' type='image/webp'>
+                                    <img src='assets/img/reviews/photo-1.jpg' decoding='async' loading='lazy' alt=''>
+                                </picture>
+                                <div class="reviews__card-person">
+                                    <p class="reviews__card-name">Екатерина Сайдаметова</p>
+                                    <p class="reviews__card-post">— Основатель компании «Медицинский друг»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class='reviews__swiper-slide swiper-slide'>
+                        <div class="reviews__card">
+                            <div class="reviews__card-main">
+                                <div class="reviews__card-text">Heavy Traffic – это стратегический партнер. Благодаря их продуктовому подходу и работе с нашими социальными сетями, узнаваемость бренда выросла в разы, а годовая выручка увеличилась на 25%.</div>
+                                <button class="reviews__card-btn btn-more">Показать еще</button>
+                            </div>
+    
+                            <div class="reviews__card-autor">
+                                <picture class='reviews__card-photo'>
+                                    <source srcset='assets/img/reviews/photo-1.webp' type='image/webp'>
+                                    <img src='assets/img/reviews/photo-1.jpg' decoding='async' loading='lazy' alt=''>
+                                </picture>
+                                <div class="reviews__card-person">
+                                    <p class="reviews__card-name">Екатерина Сайдаметова</p>
+                                    <p class="reviews__card-post">— Основатель компании «Медицинский друг»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class='reviews__swiper-slide swiper-slide'>
+                        <div class="reviews__card">
+                            <div class="reviews__card-main">
+                                <div class="reviews__card-text">Heavy Traffic – это стратегический партнер. Благодаря их продуктовому подходу и работе с нашими социальными сетями, узнаваемость бренда выросла в разы, а годовая выручка увеличилась на 25%.</div>
+                                <button class="reviews__card-btn btn-more">Показать еще</button>
+                            </div>
+    
+                            <div class="reviews__card-autor">
+                                <picture class='reviews__card-photo'>
+                                    <source srcset='assets/img/reviews/photo-1.webp' type='image/webp'>
+                                    <img src='assets/img/reviews/photo-1.jpg' decoding='async' loading='lazy' alt=''>
+                                </picture>
+                                <div class="reviews__card-person">
+                                    <p class="reviews__card-name">Екатерина Сайдаметова</p>
+                                    <p class="reviews__card-post">— Основатель компании «Медицинский друг»</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class='price section-offset'>
+        <div class='container'>
+            <div class="section__top">
+                <p class="section__top-title">Стоимость</p>
+                <div class="counter-blocks">
+                    <span>07</span>
+                    <span>08</span>
+                </div>
+            </div>
+    
+            <p class="price__title section__title title-h2">Используем сметный подход с учетом компетенций команды ранее выполненным проектам</p>
+            
+            <div class="price__row">
+                <div class="price__card price__left animation-item">
+                    <div class="price__left-top">
+                        <p class="price__left-cost">от 960 000* ₽/месяц</p>
+                        <span>*стоимость указана с учетом рекламного бюджета</span>
+                        <picture class='price__left-sticker'>
+                            <source srcset='assets/img/price/price-sticker-2.webp' type='image/webp'>
+                            <img src='assets/img/price/price-sticker-2.png' decoding='async' loading='lazy' alt=''>
+                        </picture>
+                    </div>
+                    <p class="price__left-deadline">сроки от 3 до 6 месяцев</p>
+                    <div class="price__left-text">
+                        <p>По нашему опыту, разработка интернет-магазина стоит в среднем 2−3,5 млн руб. Мы ориентированы на оптимальное решение, поэтому каждый проект имеет индивидуальный подход с опорой на цели и бизнес-задачи проекта</p>
+                    </div>
+                    <button class='btn-white popup-btn' data-path='popup-change'>
+                        Обсудить проект
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.59378 0.660696C6.77622 0.258772 7.18279 0 7.63327 0H16.6171C17.4617 0 18.0124 0.869916 17.634 1.6099L15.0787 6.60696H18.8605C19.8741 6.60696 20.3809 7.80502 19.6646 8.50536L6.20298 21.6675C5.35382 22.4978 3.9393 21.6433 4.31995 20.53L7.18954 12.1128H3.13743C2.94794 12.1128 2.76145 12.0665 2.59491 11.9781C2.42836 11.8897 2.28704 11.7621 2.18377 11.6067C2.0805 11.4514 2.01855 11.2733 2.00356 11.0886C1.98858 10.9039 2.02102 10.7184 2.09794 10.5491L6.59378 0.660696Z" fill="#1C1E28" />
+                        </svg>
+                    </button>
+                </div>
+    
+    
+                <div class="price__card price__right animation-item">
+                    <div class="price__right-title">
+                        <svg width="27" height="48" viewBox="0 0 27 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11.5714 11.52C18.2559 4.65896 27 0 27 0C27 0 21.4068 8.83506 18.3214 13.44C15.2361 18.0449 13.5 21.12 13.5 21.12L26.0357 24C26.0357 24 17.9256 34.1769 13.5 38.4C7.89542 43.7481 0 48 0 48C0 48 6.29111 38.2296 8.67857 34.56C10.6071 31.5958 12.5357 28.8 12.5357 28.8L0 25.92C0 25.92 4.64162 18.6329 11.5714 11.52Z" fill="#DE523E" />
+                        </svg>
+                        Что вы получаете
+                    </div>
+                    <ol class="price__right-list">
+                        <li class="price__right-item">Единая стратегия вместо набора разрозненных действий</li>
+                        <li class="price__right-item">Рост заявок и продаж, а не только «красивый образ»</li>
+                        <li class="price__right-item">Постоянную работу над брендом</li>
+                        <li class="price__right-item">Один ответственный за весь маркетинг</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    
+    <footer class="footer">
+        <div class="footer__wrap">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__left">
+                        <div class="footer__nav">
+                            <ul class="footer__nav-list">
+                                <li><p class="footer__nav-title">Услуги</p></li>
+                                <li><a href="#" class="footer__nav-link">Комплексное продвижение</a></li>
+                                <li><a href="#" class="footer__nav-link">Генератор пациентов</a></li>
+                                <li><a href="#" class="footer__nav-link">Развитие бизнеса под ключ</a></li>
+                            </ul>
+                            <ul class="footer__nav-list">
+                                <li><a href="#" class="footer__nav-link">О нас</a></li>
+                                <li><a href="#" class="footer__nav-link">Вакансии</a></li>
+                                <li><a href="#" class="footer__nav-link">Контакты</a></li>
+                            </ul>
+                        </div>
+    
+                        <div class="footer__policy">
+                            <p>©2025 heavy trafic. все права защищены</p>
+                            <a href="#">Политика конфиденциальности</a>
+                            <a href="#">Согласие на обработку персональных данных</a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__right">
+                        <div class="footer__contacts">
+                            <a href="tel:89034085614">8 (903) 408-56-14</a>
+                            <a href="mailto:ooowebservice@rambler.ru">ooowebservice@rambler.ru</a>
+                            <p>Ростов-на-дону, пр-кт Ленина, д. 91, ком. 36</p>
+                        </div>
+    
+                        <div class="footer__btns">
+                            <div class="footer__networks">
+                                <a href="#" class="network">
+                                    Тelegram
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25.7269 8.27277L0.920241 18.0647C-0.0780239 18.5207 -0.415664 19.4338 0.67896 19.9294L7.04294 21.9996L22.4302 12.2654C23.2704 11.6543 24.1305 11.8173 23.3904 12.4895L10.1748 24.7379L9.75965 29.9214C10.1442 30.7217 10.8482 30.7254 11.2973 30.3276L14.9536 26.7863L21.2156 31.5861C22.67 32.4675 23.4614 31.8987 23.7743 30.2833L27.8816 10.3755C28.3081 8.38705 27.5808 7.51092 25.7269 8.27277Z" fill="white" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="network">
+                                    Whatsapp
+                                    <svg width="28" height="40" viewBox="0 0 28 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.0003 6C21.732 6 28 12.2681 28 20C28 27.7319 21.732 34 14.0003 34C11.578 34 9.29899 33.384 7.31038 32.3005L1.13749 33.3358C0.985337 33.3612 0.82934 33.3502 0.682265 33.3037C0.53519 33.2572 0.40122 33.1765 0.291325 33.0683C0.18143 32.96 0.098734 32.8273 0.0500091 32.6809C0.00128409 32.5346 -0.0120847 32.3788 0.0109973 32.2262L1.05284 25.3369C0.354901 23.6444 -0.00266314 21.8308 0.000578855 20C0.000578855 12.2681 6.26854 6 14.0003 6ZM8.71686 13.0977C7.75967 13.0977 6.96657 13.9051 7.11504 14.9027C7.39633 16.7728 8.2272 20.2188 10.699 22.7088C13.2827 25.3122 16.9799 26.4257 18.9816 26.8646C20.0182 27.0925 20.9025 26.272 20.9025 25.2601V22.8847C20.9025 22.8057 20.8786 22.7286 20.834 22.6636C20.7894 22.5985 20.7261 22.5484 20.6524 22.52L18.0999 21.5393C18.031 21.513 17.9561 21.5067 17.8837 21.5211L15.3091 22.0238C13.6487 21.1643 12.6433 20.2006 12.0403 18.7485L12.5248 16.1243C12.5378 16.0545 12.5315 15.9824 12.5066 15.9159L11.5494 13.3516C11.5216 13.2773 11.4718 13.2131 11.4067 13.1678C11.3415 13.1224 11.2641 13.0979 11.1847 13.0977H8.71686Z" fill="white" />
+                                    </svg>
+                                </a>
+                            </div>
+    
+                            <button class="scroll-top">
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.71484 1L7.71484 15M7.71484 1L0.714844 8.12727M7.71484 1L14.7148 8.12727" stroke="white" stroke-width="2" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer__images">
+                    <picture class='footer__image animation-item transform-item'>
+                        <img src='assets/img/footer/footer-1.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                    <picture class='footer__image animation-item transform-item'>
+                        <img src='assets/img/footer/footer-2.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                    <picture class='footer__image animation-item transform-item'>
+                        <img src='assets/img/footer/footer-3.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                    <picture class='footer__image animation-item transform-item'>
+                        <img src='assets/img/footer/footer-4.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                    <picture class='footer__image animation-item transform-item'>
+                        <img src='assets/img/footer/footer-5.png' decoding='async' loading='lazy' alt=''>
+                    </picture>
+                </div>
+    
+                <div class="footer__lights">
+                    <img src='assets/img/footer/footer-light.png' class="animation-item " decoding='async' loading='lazy' alt=''>
+                    <img src='assets/img/footer/footer-light.png' class="animation-item " decoding='async' loading='lazy' alt=''>
+                    <img src='assets/img/footer/footer-light.png' class="animation-item " decoding='async' loading='lazy' alt=''>
+                    <img src='assets/img/footer/footer-light.png' class="animation-item " decoding='async' loading='lazy' alt=''>
+                    <img src='assets/img/footer/footer-light.png' class="animation-item " decoding='async' loading='lazy' alt=''>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Pop-up change 1 -->
+    <div class="popup" data-target="popup-change"> 
+        <div class="popup__body">
+            <div class="popup__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture> 
+    
+                <div class="popup__text">
+                    <p class="popup__title title-h2 original-title">Оставьте заявку</p>
+                    <p class="popup__subtitle">Оставьте свои данные, и наш специалист свяжется с вами в самое ближайшее время</p>                        
+                </div>
+    
+                <form class="popup__form popup-change__form">
+                    <input name='catalogue' type='hidden' value='<?= $current_catalogue["Catalogue_ID"] ?>' />
+                    <input name="bitrixID" type="hidden" value='<?= $current_catalogue["BitrixID"] ?>'>
+                    <input name='city' type='hidden' value='<?= $current_catalogue["Catalogue_Name"] ?>' />
+                    <input name='type' type='hidden' value='request' />
+                    <input name='cc' type='hidden' value='2' />
+                    <input name='sub' type='hidden' value='8' />
+                    <input name='mes' type='hidden' value='22' />
+                    <input name="urlMessage" type="hidden" value="">
+                    <input name="title_url_message" type="hidden" value="">                <input type="text" name="params[name][]"  placeholder="Ваше имя" required> 
+                    <input type="tel" name="params[phone][]"  placeholder="Ваш номер телефона" required> 
+                    <textarea name="params[message][]" placeholder="Кратко опишите задачу"></textarea>
+    
+                    <div class="politic">
+                        <input type="checkbox" id="popup-change-politic" checked>
+                        <label for="popup-change-politic">Нажимая кнопку «Обсудить проект», вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a></label>
+                    </div>
+                    <button type="submit" class='btn-red popup__form-btn'>Обсудить проект
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.59378 0.660696C6.77622 0.258772 7.18279 0 7.63327 0H16.6171C17.4617 0 18.0124 0.869916 17.634 1.6099L15.0787 6.60696H18.8605C19.8741 6.60696 20.3809 7.80502 19.6646 8.50536L6.20298 21.6675C5.35382 22.4978 3.9393 21.6433 4.31995 20.53L7.18954 12.1128H3.13743C2.94794 12.1128 2.76145 12.0665 2.59491 11.9781C2.42836 11.8897 2.28704 11.7621 2.18377 11.6067C2.0805 11.4514 2.01855 11.2733 2.00356 11.0886C1.98858 10.9039 2.02102 10.7184 2.09794 10.5491L6.59378 0.660696Z" fill="#1C1E28" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="popup popup-response" data-modal-ok="result-wrapper" data-modal-open="open active"> 
+        <div class="popup__body">
+            <div class="popup__content popup-response__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+    
+                <picture class='popup-response__pic'>
+                    <img src='assets/img/icons/popup-ok.png' decoding='async' loading='lazy' alt=''>
+                </picture>
+    
+                <div class="result-wrapper popup-response__wrapper">
+                    <h3>Спасибо, ваша заявка успешно отправлена</h3>
+                    <p>Через 15 минут вам перезвонит наш оператор и более детально с вами все обсудит</p>
+                </div>
+    
+                <button class="popup-response__btn btn-simple close-popup-btn">Вернуться на сайт</button>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="popup popup-change-error" data-modal-err="result-wrapper" data-modal-open="open active"> 
+        <div class="popup__body">
+            <div class="popup__content popup-response__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture>
+    
+                <picture class='popup-response__pic'>
+                    <img src='assets/img/icons/popup-error.png' decoding='async' loading='lazy' alt=''>
+                </picture>
+    
+                <div class="result-wrapper popup-response__wrapper">
+                    <h3>К сожалению, что-то пошло не так</h3>
+                    <p>Вашу заявку не удалось обработать, попробуйте позже</p>
+                </div>
+    
+                <button class="popup-response__btn btn-simple close-popup-btn">Вернуться на сайт</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Pop-up job -->
+    <div class="popup" data-target="popup-job"> 
+        <div class="popup__body">
+            <div class="popup__content popup-job__content">
+                <picture class="close-popup close-popup-btn">
+                    <source srcset="assets/img/icons/popup-close.svg" type="image/svg+xml">
+                    <img src="assets/img/icons/popup-close.png" alt="close_popup">
+                </picture> 
+    
+                <div class="popup__text">
+                    <p class="popup__title title-h2 original-title">Заявка на вакансию</p>                  
+                </div>
+    
+                <form class="popup__form popup-job__form">
+                    <input name='catalogue' type='hidden' value='<?= $current_catalogue["Catalogue_ID"] ?>' />
+                    <input name="bitrixID" type="hidden" value='<?= $current_catalogue["BitrixID"] ?>'>
+                    <input name='city' type='hidden' value='<?= $current_catalogue["Catalogue_Name"] ?>' />
+                    <input name='type' type='hidden' value='request' />
+                    <input name='cc' type='hidden' value='2' />
+                    <input name='sub' type='hidden' value='8' />
+                    <input name='mes' type='hidden' value='22' />
+                    <input name="urlMessage" type="hidden" value="">
+                    <input name="title_url_message" type="hidden" value="">                <input type="text" name="params[name][]"  placeholder="Ваше имя*" required> 
+                    <input type="tel" name="params[phone][]"  placeholder="Ваш номер телефона*" required> 
+                    <input type="text" name="params[email][]"  placeholder="Ваш Email*" required> 
+                    <input type="text" name="params[spec][]"  placeholder="Специальность*" required> 
+                    <textarea name="params[message][]" placeholder="Расскажите о себе*"></textarea>
+    
+                    <div class="politic">
+                        <input type="checkbox" id="popup-job-politic" checked>
+                        <label for="popup-job-politic">Нажимая кнопку «Отправить», вы соглашаетесь с <a href="#" rel="nofollow">политикой конфиденциальности</a></label>
+                    </div>
+    
+                    <div class="popup-job__form-resume">
+                        <div class="popup-job__form-resume-btn">
+                            <input type="file" name="" id="resume" accept=".pdf,.doc,.docx,.txt">
+                            <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5.2715 15.126L12.2856 8.32804C13.1278 7.5119 13.1278 6.18863 12.2856 5.37245C11.4435 4.55628 10.0782 4.55628 9.23602 5.37245L2.27272 12.1212C0.672675 13.6719 0.672675 16.1861 2.27272 17.7368C3.87275 19.2876 6.46693 19.2876 8.06696 17.7368L15.1319 10.8896C17.4899 8.60434 17.4899 4.89915 15.1319 2.61387C12.774 0.328581 8.95096 0.328581 6.593 2.61387L0.900391 8.13103" stroke="white" stroke-width="1.8" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <div>
+                            <label for="resume">Прикрепите резюме*</label>
+                            <span  id="file-display"></span>
+                        </div>
+                    </div>
+    
+                    <button type="submit" class='btn-red popup__form-btn'>Отправить
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6.59378 0.660696C6.77622 0.258772 7.18279 0 7.63327 0H16.6171C17.4617 0 18.0124 0.869916 17.634 1.6099L15.0787 6.60696H18.8605C19.8741 6.60696 20.3809 7.80502 19.6646 8.50536L6.20298 21.6675C5.35382 22.4978 3.9393 21.6433 4.31995 20.53L7.18954 12.1128H3.13743C2.94794 12.1128 2.76145 12.0665 2.59491 11.9781C2.42836 11.8897 2.28704 11.7621 2.18377 11.6067C2.0805 11.4514 2.01855 11.2733 2.00356 11.0886C1.98858 10.9039 2.02102 10.7184 2.09794 10.5491L6.59378 0.660696Z" fill="#1C1E28" />
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
