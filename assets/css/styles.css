@@ -1563,6 +1563,8 @@ select:focus {
     visibility: hidden;
     pointer-events: none;
     background: var(--background-base-black);
+    overflow-y: auto;
+    overflow-x: hidden;
     transition: all 0.3s ease;
   }
   .header__menu.open {
@@ -2779,6 +2781,7 @@ select:focus {
   backdrop-filter: blur(10px);
   background: rgba(0, 0, 0, 0.3);
   opacity: 0;
+  pointer-events: none;
   transition: all 0.3s ease;
 }
 .projects__card-pic {
@@ -3146,6 +3149,10 @@ select:focus {
     border-radius: 0;
     padding: 0;
     min-height: auto;
+    justify-content: start;
+  }
+  .projects__card::before {
+    content: none;
   }
   .projects__card-link {
     top: 8px;
@@ -3197,6 +3204,7 @@ select:focus {
     background: transparent;
     margin-top: 14px;
     max-height: 0;
+    overflow: hidden;
     transition: all 0.3s ease;
   }
   .projects__card-infos {

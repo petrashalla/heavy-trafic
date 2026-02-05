@@ -229,51 +229,51 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     /* yandex map */
-    const mapPlaceholder = document.getElementById('map-placeholder');
-    loadMap();
-
-    function loadMap() {
-        if (!document.querySelector('[src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"]')) {
-            const script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
-            script.onload = initMap;
-            document.head.appendChild(script);
-        } else {
-            initMap();
-        }
+    const map = document.querySelectorAll('#map');
+    if (map.length > 0) {
+    function onEntryMap(e) {
+        e.forEach(e => {
+        e.isIntersecting && loadMap() && initMap();
+        })
     }
-    
+    let options = {
+        threshold: [0.5],
+    },
+        observer = new IntersectionObserver(onEntryMap, options)
+    for (let e of map) observer.observe(e)
+    }
+    function loadMap() {
+    if (!document.querySelector('[src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"]')) {
+        const script = document.createElement('script');
+        script.type = 'text/javascript';
+        script.src = 'https://api-maps.yandex.ru/2.1/?lang=ru_RU';
+        script.onload = initMap;
+        document.head.appendChild(script);
+    }
+    }
     function initMap() {
-        const mapPlaceholder = document.getElementById('map-placeholder');
-        if (mapPlaceholder) {
-            mapPlaceholder.remove();
-        }
-    
-        ymaps.ready(function () {
+    ymaps.ready(function () {
             const myMap = new ymaps.Map('map', {
-                center: [47.249427, 39.705203],
-                zoom: 13,
-                controls: []
+            center: [47.249427, 39.705203],
+            zoom: 15,
+            controls: []
             });
-    
             const myPlacemark = new ymaps.Placemark(
                 [47.249427, 39.705203],
-                {
-                    hintContent: 'Heavy Traffic',
-                    balloonContent: 'Heavy Traffic'
-                },
-                {
-                    iconLayout: 'default#image',
-                    iconImageHref: 'assets/img/icons/map-pin.png', 
-                    iconImageSize: [54, 70],
-                    iconImageOffset: [-25, -75],
-                }
-            );
-    
-            myMap.geoObjects.add(myPlacemark);
-            //myMap.behaviors.disable(['scrollZoom']);
-        });
+            {
+                hintContent: 'Heavy Traffic',
+                balloonContent: 'Heavy Traffic'
+            },
+            {
+                iconLayout: 'default#image',
+                iconImageHref: 'assets/img/icons/map-pin.png', 
+                iconImageSize: [54, 70],
+                iconImageOffset: [-25, -75],
+            }
+        );
+        myMap.geoObjects.add(myPlacemark);
+        myMap.behaviors.disable(['scrollZoom']);
+    });
     }
     /* end yandex map */
 
